@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script> <!-- Usa 'defer' para cargar el script después del HTML -->
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <div class="menu-icon">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy un desarrollador apasionado por la creación de experiencias digitales únicas.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo web</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="filters">
+            <button onclick="filterProjects('all')">Todos</button>
+            <button onclick="filterProjects('web')">Web</button>
+            <button onclick="filterProjects('mobile')">Móvil</button>
+        </div>
+        <article>
+            <figure class="web">
+                <img src="https://img.freepik.com/foto-gratis/empresario-positivo-portatil-riendo-sobre-fondo-blanco_114579-28479.jpg?ga=GA1.1.1689950247.1737345406&semt=ais_hybrid" alt="Proyecto 1">
+                <figcaption>Proyecto Web - Tienda Online</figcaption>
+            </figure>
+            <figure class="mobile">
+                <img src="https://img.freepik.com/fotos-premium/persona-negocios-sobre-fondo-aislado_1368-175963.jpg?ga=GA1.1.1689950247.1737345406&semt=ais_hybrid" alt="Proyecto 2">
+                <figcaption>Proyecto Móvil - App Fitness</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+            <small class="error-message"></small>
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico">
+            <small class="error-message"></small>
+        </div>
+    
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            <small class="error-message"></small>
+        </div>
+    
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Modal para imágenes -->
+    <div class="modal">
+        <img src="" alt="Imagen ampliada">
+    </div>
+</body>
+</html>
