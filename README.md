@@ -1,6 +1,6 @@
 # 🚀 Mi Portafolio Web Personal
 
-Este repositorio contiene el código fuente de mi portafolio web personal, diseñado para mostrar mis habilidades, proyectos y proporcionar una vía de contacto profesional. Es un proyecto ligero y 100% *responsive*, implementado con tecnologías web fundamentales.
+Este repositorio contiene el código fuente de un portafolio web personal, diseñado para mostrar  habilidades, proyectos y proporcionar una vía de contacto profesional. Es un proyecto ligero y 100% *responsive*, implementado con tecnologías web fundamentales.
 
 ## 🌟 Características Principales
 
@@ -38,7 +38,7 @@ El repositorio está organizado de la siguiente manera:
 
 ## 🤝 Contacto
 
-Puedes encontrar más información sobre mí y mis proyectos en mi perfil de GitHub o usar el formulario de contacto integrado en el sitio web.
+Puedes encontrar más información sobre mí y mis proyectos en mi perfil de GitHub.
 
 ---
 
